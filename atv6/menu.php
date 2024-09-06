@@ -11,7 +11,7 @@
         $saldo = 100;
         $depositar = $_POST["deposito"];
         $sacar = $_POST["sacar"];
-        $sair = $_POST["sair"];
+        $sair = $_POST["sair"] ?? "saldo";
 
         switch($menu){
             case($menu == "saldo"):
